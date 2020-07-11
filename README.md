@@ -1,4 +1,4 @@
-# Barleby API 
+# Bartleby API 
 
 ### To run as a flask app
 `env FLASK_APP=app.py flask run`
