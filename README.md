@@ -75,6 +75,9 @@ Index: https://www.bartleby.com/354/
 A Thousand Flashes of French Wit, Wisdom, and Wickedness<br>
 Index: https://www.bartleby.com/355/
 
+### Sources to be Added
+Epigrams on Programming - Alan J. Perlis
+http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
 
 ### Todo : According to priority
  - Clean up JSON objects returned to remove empty strings, unicode character codes, etc.

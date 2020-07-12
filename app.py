@@ -1,4 +1,4 @@
-from flask import Flask, escape, request
+from flask import Flask, escape, request, jsonify
 from scraper import get_quotes_index, get_quotes_by_subject
 from config import INDEXES
 import random
@@ -15,4 +15,4 @@ def index():
     random_subject = random.choices(list(json_subjects.keys()))[0]
     random_subject_url = json_subjects[random_subject]
 
-    return get_quotes_by_subject(random_subject, random_subject_url)
+    return jsonify(get_quotes_by_subject(random_subject, random_subject_url))
